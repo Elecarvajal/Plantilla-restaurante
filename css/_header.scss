@@ -1,0 +1,57 @@
+header {
+	width: 100%;
+	background: url('../img/bg.jpg') #281a0c;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 center;
+
+	.contenedor {
+		position: relative;
+		height: 700px;
+	}
+
+	.menu {
+		width: 100%;
+		text-align: right;
+
+		a {
+			display: inline-block;
+			margin: 40px 20px;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: 300;
+			line-height: 27px;
+			color: #fff;
+			position: relative;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.textos {
+		width: 100%;
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		margin-top: -52px;
+
+		.nombre {
+			margin: 0;
+			font-size: 50px;
+			line-height: 68px;
+			font-weight: 600;
+
+			span {
+				font-weight: 300;
+			}
+		}
+
+		.eslogan {
+			font-weight: 300;
+			font-size: 25px;
+			line-height: 34px;
+			font-style: italic;
+		}
+	}
+}
